@@ -1,0 +1,318 @@
+[
+    {
+        "value": "1",
+        "name": "Manufacturing"
+    },
+    {
+        "value": "19",
+        "name": "&nbsp;&nbsp;&nbsp;&nbsp;Construction materials"
+    },
+    {
+        "value": "18",
+        "name": "&nbsp;&nbsp;&nbsp;&nbsp;Electronics and Optics"
+    },
+    {
+        "value": "6",
+        "name": "&nbsp;&nbsp;&nbsp;&nbsp;Food and Beverage"
+    },
+    {
+        "value": "342",
+        "name": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bakery &amp; confectionery products"
+    },
+    {
+        "value": "43",
+        "name": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Beverages"
+    },
+    {
+        "value": "42",
+        "name": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fish &amp; fish products "
+    },
+    {
+        "value": "40",
+        "name": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Meat &amp; meat products"
+    },
+    {
+        "value": "39",
+        "name": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Milk &amp; dairy products "
+    },
+    {
+        "value": "437",
+        "name": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Other"
+    },
+    {
+        "value": "378",
+        "name": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sweets &amp; snack food"
+    },
+    {
+        "value": "13",
+        "name": "&nbsp;&nbsp;&nbsp;&nbsp;Furniture"
+    },
+    {
+        "value": "389",
+        "name": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bathroom/sauna "
+    },
+    {
+        "value": "385",
+        "name": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bedroom"
+    },
+    {
+        "value": "390",
+        "name": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Children’s room "
+    },
+    {
+        "value": "98",
+        "name": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kitchen "
+    },
+    {
+        "value": "101",
+        "name": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Living room "
+    },
+    {
+        "value": "392",
+        "name": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Office"
+    },
+    {
+        "value": "394",
+        "name": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Other (Furniture)"
+    },
+    {
+        "value": "341",
+        "name": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Outdoor "
+    },
+    {
+        "value": "99",
+        "name": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Project furniture"
+    },
+    {
+        "value": "12",
+        "name": "&nbsp;&nbsp;&nbsp;&nbsp;Machinery"
+    },
+    {
+        "value": "94",
+        "name": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Machinery components"
+    },
+    {
+        "value": "91",
+        "name": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Machinery equipment/tools"
+    },
+    {
+        "value": "224",
+        "name": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Manufacture of machinery "
+    },
+    {
+        "value": "97",
+        "name": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Maritime"
+    },
+    {
+        "value": "271",
+        "name": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Aluminium and steel workboats "
+    },
+    {
+        "value": "269",
+        "name": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Boat/Yacht building"
+    },
+    {
+        "value": "230",
+        "name": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ship repair and conversion"
+    },
+    {
+        "value": "93",
+        "name": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Metal structures"
+    },
+    {
+        "value": "508",
+        "name": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Other"
+    },
+    {
+        "value": "227",
+        "name": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Repair and maintenance service"
+    },
+    {
+        "value": "11",
+        "name": "&nbsp;&nbsp;&nbsp;&nbsp;Metalworking"
+    },
+    {
+        "value": "67",
+        "name": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Construction of metal structures"
+    },
+    {
+        "value": "263",
+        "name": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Houses and buildings"
+    },
+    {
+        "value": "267",
+        "name": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Metal products"
+    },
+    {
+        "value": "542",
+        "name": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Metal works"
+    },
+    {
+        "value": "75",
+        "name": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CNC-machining"
+    },
+    {
+        "value": "62",
+        "name": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Forgings, Fasteners "
+    },
+    {
+        "value": "69",
+        "name": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gas, Plasma, Laser cutting"
+    },
+    {
+        "value": "66",
+        "name": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MIG, TIG, Aluminum welding"
+    },
+    {
+        "value": "9",
+        "name": "&nbsp;&nbsp;&nbsp;&nbsp;Plastic and Rubber"
+    },
+    {
+        "value": "54",
+        "name": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Packaging"
+    },
+    {
+        "value": "556",
+        "name": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Plastic goods"
+    },
+    {
+        "value": "559",
+        "name": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Plastic processing technology"
+    },
+    {
+        "value": "55",
+        "name": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Blowing"
+    },
+    {
+        "value": "57",
+        "name": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Moulding"
+    },
+    {
+        "value": "53",
+        "name": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Plastics welding and processing"
+    },
+    {
+        "value": "560",
+        "name": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Plastic profiles"
+    },
+    {
+        "value": "5",
+        "name": "&nbsp;&nbsp;&nbsp;&nbsp;Printing "
+    },
+    {
+        "value": "148",
+        "name": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Advertising"
+    },
+    {
+        "value": "150",
+        "name": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Book/Periodicals printing"
+    },
+    {
+        "value": "145",
+        "name": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Labelling and packaging printing"
+    },
+    {
+        "value": "7",
+        "name": "&nbsp;&nbsp;&nbsp;&nbsp;Textile and Clothing"
+    },
+    {
+        "value": "44",
+        "name": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Clothing"
+    },
+    {
+        "value": "45",
+        "name": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Textile"
+    },
+    {
+        "value": "8",
+        "name": "&nbsp;&nbsp;&nbsp;&nbsp;Wood"
+    },
+    {
+        "value": "337",
+        "name": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Other (Wood)"
+    },
+    {
+        "value": "51",
+        "name": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wooden building materials"
+    },
+    {
+        "value": "47",
+        "name": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wooden houses"
+    },
+    {
+        "value": "3",
+        "name": "Other"
+    },
+    {
+        "value": "37",
+        "name": "&nbsp;&nbsp;&nbsp;&nbsp;Creative industries"
+    },
+    {
+        "value": "29",
+        "name": "&nbsp;&nbsp;&nbsp;&nbsp;Energy technology"
+    },
+    {
+        "value": "33",
+        "name": "&nbsp;&nbsp;&nbsp;&nbsp;Environment"
+    },
+    {
+        "value": "2",
+        "name": "Service"
+    },
+    {
+        "value": "25",
+        "name": "&nbsp;&nbsp;&nbsp;&nbsp;Business services"
+    },
+    {
+        "value": "35",
+        "name": "&nbsp;&nbsp;&nbsp;&nbsp;Engineering"
+    },
+    {
+        "value": "28",
+        "name": "&nbsp;&nbsp;&nbsp;&nbsp;Information Technology and Telecommunications"
+    },
+    {
+        "value": "581",
+        "name": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Data processing, Web portals, E-marketing"
+    },
+    {
+        "value": "576",
+        "name": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Programming, Consultancy"
+    },
+    {
+        "value": "121",
+        "name": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Software, Hardware"
+    },
+    {
+        "value": "122",
+        "name": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Telecommunications"
+    },
+    {
+        "value": "22",
+        "name": "&nbsp;&nbsp;&nbsp;&nbsp;Tourism"
+    },
+    {
+        "value": "141",
+        "name": "&nbsp;&nbsp;&nbsp;&nbsp;Translation services"
+    },
+    {
+        "value": "21",
+        "name": "&nbsp;&nbsp;&nbsp;&nbsp;Transport and Logistics"
+    },
+    {
+        "value": "111",
+        "name": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Air"
+    },
+    {
+        "value": "114",
+        "name": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rail"
+    },
+    {
+        "value": "112",
+        "name": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Road"
+    },
+    {
+        "value": "113",
+        "name": "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Water"
+    }
+]
