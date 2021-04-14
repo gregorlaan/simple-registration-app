@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ApplicationController;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,6 +17,12 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/application/create', [ApplicationController::class, 'create'])->name('application.create');
+Route::post('/application', [ApplicationController::class, 'store'])->name('application.store');
+Route::patch('/application/{application}', [ApplicationController::class, 'update'])->name('application.update');
+Route::get('/application/{application}/edit', [ApplicationController::class, 'edit'])->name('application.edit');
+Route::get('/application/{application}', [ApplicationController::class, 'show'])->name('application.show');
 
 Route::get('/dashboard', function () {
     return view('dashboard');

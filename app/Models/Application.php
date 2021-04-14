@@ -15,4 +15,11 @@ class Application extends Model
      * @var array
      */
     protected $fillable = ['name', 'sectors'];
+
+    /**
+     * Cast values to certain types.
+     */
+    protected $casts = [
+        'sectors' => 'array',
+    ];
 }
