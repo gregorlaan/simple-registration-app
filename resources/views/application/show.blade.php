@@ -20,8 +20,8 @@
                     <div class="w-full md:w-1/2">
                         <p class="text-md">Sectors</p>
                         <ul class="text-xl">
-                            @foreach ($application->sectors as $sector)
-                                <li>{{ $sector }}</li>
+                            @foreach ($sectors as $sector)
+                                <li title="{{ $sector->value }}">{{ str_replace('&nbsp;', '', $sector->name) }}</li>
                             @endforeach
                         </ul>
                     </div>

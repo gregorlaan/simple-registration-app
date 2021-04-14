@@ -46,7 +46,8 @@ class ApplicationController extends Controller
      */
     public function show(Application $application)
     {
-        return view('application.show', compact('application'));
+        $sectors = Sector::find($application->sectors);
+        return view('application.show', compact('application', 'sectors'));
     }
 
     /**
