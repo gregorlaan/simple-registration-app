@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Application;
+use App\Models\Sector;
 
 class ApplicationController extends Controller
 {
@@ -14,7 +15,8 @@ class ApplicationController extends Controller
      */
     public function create()
     {
-        return view('application.create');
+        $sectors = Sector::all();
+        return view('application.create', compact('sectors'));
     }
 
     /**
