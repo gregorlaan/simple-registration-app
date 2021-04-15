@@ -4,6 +4,10 @@
             <h2 class="font-semibold text-xl text-gray-800 leading-tight">
                 {{ __('Application') }}: <b>#{{ $application->id }}</b>
             </h2>
+
+            <x-button-link class="ml-4" :href="route('application.edit', $application->id)">
+                {{ __('Edit') }}
+            </x-button-link>
         </div>
     </x-slot>
 
