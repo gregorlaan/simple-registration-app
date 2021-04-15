@@ -58,7 +58,8 @@ class ApplicationController extends Controller
      */
     public function edit(Application $application)
     {
-        return view('application.edit', compact('application'));
+        $sectors = Sector::all();
+        return view('application.edit', compact('application', 'sectors'));
     }
 
     /**
@@ -71,7 +72,9 @@ class ApplicationController extends Controller
     public function update(Request $request, Application $application)
     {
         $data = request()->validate([
-            'value' => 'required',
+            'name' => 'required',
+            'sectors' => 'required',
+            'agreement' => 'required',
         ]);
 
         $application->update($data);

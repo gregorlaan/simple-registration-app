@@ -32,13 +32,9 @@
                         <div class="mb-4">
                             <x-label for="sectors" :value="__('Sectors')" />
 
-                            <ul class="text-xl">
-
-                            </ul>
-
                             <select id="sectors" name="sectors[]" multiple size="15" required class="w-full rounded-md shadow-sm border-gray-300 focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
                                 @foreach ($sectors as $sector)
-                                    <option value="{{ $sector->id }}">{!! $sector->name !!}</option>
+                                    <option value="{{ $sector->id }}" {{ (collect(old('sectors'))->contains($sector->id)) ? 'selected' : '' }}>{!! $sector->name !!}</option>
                                 @endforeach
                             </select>
                         </div>
