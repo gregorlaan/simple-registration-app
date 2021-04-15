@@ -17,6 +17,7 @@ class CreateApplicationsTable extends Migration
             $table->id();
             $table->string('name');
             $table->json('sectors');
+            $table->boolean('agreement');
             $table->timestamps();
         });
     }

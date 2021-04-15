@@ -42,7 +42,14 @@
                         <!-- Agree to terms -->
                         <div class="block mt-4">
                             <label for="agreement" class="inline-flex items-center">
-                                <input id="agreement" name="agreement" type="checkbox" required class="rounded border-gray-300 text-indigo-600 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
+                                <input
+                                    id="agreement"
+                                    name="agreement"
+                                    type="checkbox"
+                                    required
+                                    class="rounded border-gray-300 text-indigo-600 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+                                    {{ old('agreement') ? 'checked' : '' }}
+                                >
                                 <span class="ml-2 text-sm text-gray-600">{{ __('Agree to terms') }}</span>
                             </label>
                         </div>

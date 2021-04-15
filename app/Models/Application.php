@@ -14,12 +14,13 @@ class Application extends Model
      *
      * @var array
      */
-    protected $fillable = ['name', 'sectors'];
+    protected $fillable = ['name', 'sectors', 'agreement'];
 
     /**
      * Cast values to certain types.
      */
     protected $casts = [
         'sectors' => 'array',
+        'agreement' => 'boolean',
     ];
 }
