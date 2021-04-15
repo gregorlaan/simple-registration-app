@@ -9,6 +9,16 @@ use App\Models\Sector;
 class ApplicationController extends Controller
 {
     /**
+     * Constructor
+     *
+     * @return void
+     */
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
+
+    /**
      * Show the form for creating a new resource.
      *
      * @return \Illuminate\Http\Response
