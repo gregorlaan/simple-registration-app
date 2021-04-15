@@ -12,6 +12,14 @@ Run Seeder:
 
     php artisan db:seed
 
+Run built-in development server:
+
+    php artisan serve
+
+Compile development assets:
+
+    npm run dev
+
 ## Example of .env file
 
     APP_NAME=Laravel
