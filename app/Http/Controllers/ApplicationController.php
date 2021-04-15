@@ -41,6 +41,10 @@ class ApplicationController extends Controller
      */
     public function store(Request $request)
     {
+        if(auth()->user()->application) {
+            return ;
+        }
+
         $data = request()->validate([
             'name' => 'required',
             'sectors' => 'required',
@@ -60,6 +64,8 @@ class ApplicationController extends Controller
      */
     public function show(Application $application)
     {
+        $this->authorize('view', $application);
+
         $sectors = Sector::find($application->sectors);
         return view('application.show', compact('application', 'sectors'));
     }
@@ -72,6 +78,8 @@ class ApplicationController extends Controller
      */
     public function edit(Application $application)
     {
+        $this->authorize('update', $application);
+
         $sectors = Sector::all();
         return view('application.edit', compact('application', 'sectors'));
     }
@@ -85,6 +93,8 @@ class ApplicationController extends Controller
      */
     public function update(Request $request, Application $application)
     {
+        $this->authorize('update', $application);
+
         $data = request()->validate([
             'name' => 'required',
             'sectors' => 'required',
