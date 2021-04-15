@@ -21,7 +21,7 @@
                         <p class="text-md">Sectors</p>
                         <ul class="text-xl">
                             @foreach ($sectors as $sector)
-                                <li title="{{ $sector->value }}">{{ str_replace('&nbsp;', '', $sector->name) }}</li>
+                                <li title="{{ $sector->value }}">{!! str_replace('&nbsp;', '', $sector->name) !!}</li>
                             @endforeach
                         </ul>
                     </div>
