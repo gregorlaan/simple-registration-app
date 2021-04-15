@@ -11,6 +11,24 @@
                 <div class="p-6 bg-white border-b border-gray-200">
                     You're logged in!
                 </div>
+
+                <div class="md:flex p-4">
+                    @if (auth()->user()->application)
+
+                        <x-button-link class="w-full md:w-1/2 m-2" :href="route('application.show', auth()->user()->application->id)">
+                            {{ __('Go to your Application') }}
+                        </x-button-link>
+
+                        <x-button-link class="w-full md:w-1/2 m-2" :href="route('application.edit', auth()->user()->application->id)">
+                            {{ __('Edit your Application') }}
+                        </x-button-link>
+
+                    @else
+                        <x-button-link class="w-full m-2" :href="route('application.create')">
+                            {{ __('Create an Application') }}
+                        </x-button-link>
+                    @endif
+                </div>
             </div>
         </div>
     </div>

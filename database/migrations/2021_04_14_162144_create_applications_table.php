@@ -19,6 +19,8 @@ class CreateApplicationsTable extends Migration
             $table->json('sectors');
             $table->boolean('agreement');
             $table->timestamps();
+            $table->unsignedBigInteger('user_id');
+            $table->index('user_id');
         });
     }
 

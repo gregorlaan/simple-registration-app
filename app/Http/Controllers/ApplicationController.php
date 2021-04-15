@@ -25,6 +25,10 @@ class ApplicationController extends Controller
      */
     public function create()
     {
+        if(auth()->user()->application) {
+            return redirect(route('application.edit', auth()->user()->application->id));
+        }
+
         $sectors = Sector::all();
         return view('application.create', compact('sectors'));
     }
@@ -43,7 +47,7 @@ class ApplicationController extends Controller
             'agreement' => 'required',
         ]);
 
-        $application = Application::create($data);
+        $application = auth()->user()->application()->create($data);
 
         return redirect(route('application.show', $application->id));
     }
